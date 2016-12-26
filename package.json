@@ -1,0 +1,34 @@
+{
+  "name": "command-box",
+  "version": "0.0.1",
+  "title": "Command Box",
+  "description": "Graphical replacement for the Command Line",
+  "scripts": {
+    "test": "eslint **/*.js",
+    "lint": "eslint --fix **/*.js",
+    "postinstall": "electron-rebuild -w robotjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zenflow@github.com/zenflow/command-box.git"
+  },
+  "author": "Matthew Francis Brunetti <zenflow87@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenflow/command-box/issues"
+  },
+  "homepage": "https://github.com/zenflow/command-box#readme",
+  "dependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.4.13",
+    "electron-debug": "^1.1.0",
+    "robotjs": "https://github.com/zenflow/robotjs/tarball/add-menu-key"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.4.0",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
