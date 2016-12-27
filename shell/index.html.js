@@ -9,13 +9,9 @@
 
   function setupMenu () {
     getCurrentWindow().setMenu(Menu.buildFromTemplate([
-      {
-        label: 'Window',
-        submenu: [
-          {role: 'toggledevtools'},
-          {accelerator: 'CmdOrCtrl+W', role: 'close', visible: false},
-        ],
-      },
+      {accelerator: 'CmdOrCtrl+R', role: 'reload'},
+      {accelerator: 'CmdOrCtrl+Shift+J', role: 'toggledevtools'},
+      {accelerator: 'CmdOrCtrl+W', role: 'close'},
     ]))
   }
 
